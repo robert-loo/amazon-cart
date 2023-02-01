@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <div className="App-header">
-      <Header name="Robert"/>
+      <Header title="Amazon Cart"/>
       </div>
     </div>
   );
