@@ -1,7 +1,7 @@
 import "./App.css"
 import Header from "./Components/Header"
 import CartItems from "./Components/CartItems/cartItems"
-import CartTotal from "./Components/CartTotal/CartTotal"
+import CartTotal from "./Components/CartTotal/cartTotal"
 
 
 function App() {
@@ -19,3 +19,4 @@ function App() {
 export default App;
 
 
+// image 180px 180px

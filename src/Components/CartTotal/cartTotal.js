@@ -1,10 +1,10 @@
 import React from 'react'
-import "./CartTotal.css"
+import "./cartTotal.css"
 
 function cartTotal() {
   return (
     <div className="CartTotal">
-      
+
     </div>
   )
 }
