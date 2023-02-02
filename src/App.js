@@ -1,6 +1,8 @@
-import "./App.css";
-import Header from "./Components/Header";
-import CartItems from "./Components/CartItems/cartItems";
+import "./App.css"
+import Header from "./Components/Header"
+import CartItems from "./Components/CartItems/cartItems"
+import CartTotal from "./Components/CartTotal/CartTotal"
+
 
 function App() {
   return (
@@ -8,11 +10,12 @@ function App() {
       <Header title="Amazon Cart" />
       <div className="App-main">
         <CartItems/>
-          <div className="CartTotal">
-          </div>
+        <CartTotal/>
       </div>
     </div>
   );
 }
 
 export default App;
+
+

@@ -1,4 +1,5 @@
-import React from "react";
+import React from "react"
+import './cartItems.css'
 
 function cartItems() {
   return (
@@ -7,5 +8,4 @@ function cartItems() {
     </div>
   );
 }
-
 export default cartItems;
