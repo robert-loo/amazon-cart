@@ -1,13 +1,15 @@
-import './App.css';
-import Header from './Components/Header'
+import "./App.css";
+import Header from "./Components/Header";
+import CartItems from "./Components/CartItems/cartItems";
 
 function App() {
-
-
   return (
     <div className="App">
-      <div className="App-header">
-      <Header title="Amazon Cart"/>
+      <Header title="Amazon Cart" />
+      <div className="App-main">
+        <CartItems/>
+          <div className="CartTotal">
+          </div>
       </div>
     </div>
   );

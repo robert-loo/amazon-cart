@@ -1,4 +1,29 @@
+body{
+  background-color: #EAEDED;
+}
+
+
+
 .App {
   text-align: center;
 }
 
+.App-main{
+  display: flex;
+  padding: .875rem 1.125rem 0 1.125rem;
+}
+
+.CartItems{
+  flex: 0.7;
+  margin-right: 1.125rem;
+  background-color: white;
+  padding: 1.25rem;
+
+}
+
+.CartTotal{
+  background-color: blue;
+  height: 12.5rem;
+  flex: 0.3;
+  background-color: white;
+}
